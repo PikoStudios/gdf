@@ -22,6 +22,6 @@ u225;
 
 ```
 
-## Remarks
+### Remarks
  - To speed up parsing, its recommended to go to the next line when a "@" or a ";" is hit
  - This standard recommends the `i` type to be translated to a 32-bit integer.
