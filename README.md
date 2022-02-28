@@ -25,3 +25,24 @@ u225;
 ### Remarks
  - To speed up parsing, its recommended to go to the next line when a "@" or a ";" is hit
  - This standard recommends the `i` type to be translated to a 32-bit integer.
+
+## gdf-1 Lite Standard
+
+### Example
+```
+@ This is a comment!!
+
+"Hello! This is a string";
+f12.02; @ A float!
+i2000;  @ an integer
+l50;    @ a long
+u25;    @ an unsigned integer
+
+@ No support for arrays
+
+```
+
+### Remarks
+ - To speed up parsing, its recommended to go to the next line when a "@" or a ";" is hit
+ - This standard recommends the `i` type to be translated to a 32-bit integer.
+ - No array support
